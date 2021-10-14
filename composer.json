@@ -1,9 +1,9 @@
 {
     "name": "msp/recaptcha",
-    "version": "2.2.3",
+    "version": "2.2.4",
     "description": "Google reCaptcha integration for Magento2",
     "require": {
-        "php": "^7.1|^7.2|^7.3",
+        "php": "^7.1|^7.2|^7.3|^7.4",
         "magento/magento-composer-installer": "*",
         "magento/module-customer": "*",
         "magento/module-checkout": "*",
