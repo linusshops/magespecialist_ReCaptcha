@@ -3,7 +3,7 @@
     "version": "2.2.3",
     "description": "Google reCaptcha integration for Magento2",
     "require": {
-        "php": "^7.1|^7.2|^7.3",
+        "php": "^8.2",
         "magento/magento-composer-installer": "*",
         "magento/module-customer": "*",
         "magento/module-checkout": "*",
