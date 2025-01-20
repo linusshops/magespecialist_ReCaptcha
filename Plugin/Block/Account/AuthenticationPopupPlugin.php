@@ -23,7 +23,7 @@ namespace MSP\ReCaptcha\Plugin\Block\Account;
 use Magento\Customer\Block\Account\AuthenticationPopup;
 use MSP\ReCaptcha\Model\Config;
 use MSP\ReCaptcha\Model\LayoutSettings;
-use Zend\Json\Json;
+use Laminas\Json\Json;
 
 class AuthenticationPopupPlugin
 {

@@ -24,7 +24,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\View\Element\Template;
 use MSP\ReCaptcha\Model\Config;
 use MSP\ReCaptcha\Model\LayoutSettings;
-use Zend\Json\Json;
+use Laminas\Json\Json;
 
 class ReCaptcha extends Template
 {
@@ -104,7 +104,7 @@ class ReCaptcha extends Template
 
         return Json::encode($layout);
     }
-    
+
     /**
      * @return string
      */
